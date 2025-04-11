@@ -1,0 +1,68 @@
+<!--pages/profile/profile.wxml-->
+<view class="form-container">
+  <form bindsubmit="onSubmit">
+  <!-- 姓名 -->
+  <view class="form-item">
+    <label>姓名:</label>
+    <input name="name" placeholder="请输入姓名" />
+  </view>
+
+  <!-- 联系方式 -->
+  <view class="form-item">
+    <label>联系方式:</label>
+    <input name="contact" placeholder="请输入联系方式" />
+  </view>
+
+  <!-- 作息时间 -->
+  <view class="form-item">
+      <label>作息时间:</label>
+      <radio-group name="sleepTime">
+        <label class="radio"><radio value="23:00-1:00" /> 23:00-1:00</label>
+        <label class="radio"><radio value="1:00之后" /> 1:00之后</label>
+        <label class="radio"><radio value="23:00之前" /> 23:00之前</label>
+      </radio-group>
+    </view>
+
+  <!-- 性格类型 -->
+  <view class="form-item">
+    <label>性格类型:</label>
+    <radio-group name="personality">
+      <label class="radio">
+        <radio value="内向" /> 内向
+      </label>
+      <label class="radio">
+        <radio value="外向" /> 外向
+      </label>
+    </radio-group>
+  </view>
+
+  <!-- 希望舍友性格 -->
+  <view class="form-item">
+    <label>期望舍友性格:</label>
+    <radio-group name="preferredPersonality">
+      <label class="radio">
+        <radio value="内向" /> 内向
+      </label>
+      <label class="radio">
+        <radio value="外向" /> 外向
+      </label>
+    </radio-group>
+  </view>
+
+  <!-- 宿舍习惯 -->
+  <view class="form-item">
+    <label>宿舍习惯:</label>
+    <radio-group name="dormHabit">
+      <label class="radio">
+        <radio value="学习" /> 学习
+      </label>
+      <label class="radio">
+        <radio value="放松娱乐" /> 放松娱乐
+      </label>
+    </radio-group>
+  </view>
+
+  <button form-type="submit">提交</button>
+</form>
+
+</view>

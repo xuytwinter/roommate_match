@@ -1,0 +1,31 @@
+<!--pages/match/match.wxml-->
+<view class="container">
+  <text class="title">匹配结果</text>
+
+  <view wx:if="{{matchedUsers.length > 0}}">
+    <view class="match-card" wx:for="{{matchedUsers}}" wx:key="id">
+      <view class="avatar-box">
+        <image src="/drink.png" class="avatar"/>
+      </view>
+      <view class="info-box">
+        <text class="match-title">已为您找到匹配舍友</text>
+        <view class="info-item">
+          <text class="label">姓名:</text>
+          <text class="value">{{item.name}}</text>
+        </view>
+        <view class="info-item">
+          <text class="label">联系方式:</text>
+          <text class="value">{{item.contact}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <block wx:else>
+    <view class="no-match">
+      <text class="no-match-text">{{message}}</text>
+    </view>
+  </block>
+</view>
+
+

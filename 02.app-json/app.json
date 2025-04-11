@@ -1,0 +1,24 @@
+{
+  "cloud":true,
+  "pages": [
+    "pages/login/login",
+    "pages/profile/profile",
+    "pages/match/match",
+    "pages/chat/chat"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "舍友匹配",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "permission": {
+      "scope.userInfo": {
+        "desc": "用于显示个人信息"
+      }
+    },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading" : "requiredComponents"
+
+}

@@ -1,0 +1,79 @@
+/* pages/match/match.wxss */
+/* 容器样式 */
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* 标题样式 */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 匹配卡片样式 */
+.match-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 头像样式 */
+.avatar-box {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 信息样式 */
+.info-box {
+  flex: 1;
+}
+
+.match-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-item {
+  display: flex;
+  margin: 5px 0;
+}
+
+.label {
+  font-weight: bold;
+  color: #666;
+  width: 100px;
+}
+
+.value {
+  color: #333;
+}
+
+/* 无匹配结果样式 */
+.no-match {
+  text-align: center;
+  padding: 20px;
+}
+
+.no-match-text {
+  font-size: 18px;
+  color: #999;
+}

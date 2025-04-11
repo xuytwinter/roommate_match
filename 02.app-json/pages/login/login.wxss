@@ -1,0 +1,69 @@
+/* pages/login/login.wxss */
+/* 页面背景样式 */
+/* 页面背景样式 */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 100px; /* 调整校徽大小 */
+  height: 100px; /* 调整校徽大小 */
+ /* border-radius: 50%;*/
+  margin-bottom: 20px; /* 校徽和标题之间的间距 */
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* 用户信息区域 */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+}
+
+.nickname {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* 登录按钮 */
+.login-button {
+  width: 200px;
+  height: 50px;
+  background-color: #1aad19;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  font-size: 14px;
+  color: #888;
+}
+

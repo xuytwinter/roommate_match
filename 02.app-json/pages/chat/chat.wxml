@@ -1,0 +1,8 @@
+<!--pages/chat/chat.wxml-->
+<view class="chat-container">
+  <block wx:for="{{messages}}" wx:key="id">
+    <view class="message">{{item.sender}}: {{item.text}}</view>
+  </block>
+  <input placeholder="输入消息..." bindinput="bindInput" />
+  <button bindtap="sendMessage">发送</button>
+</view><text>pages/chat/chat.wxml</text>

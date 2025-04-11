@@ -1,0 +1,47 @@
+/* pages/profile/profile.wxss */
+/* 页面整体样式 */
+.form-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* 表单项样式 */
+.form-item {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* 按钮样式 */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* 单选框样式 */
+.radio {
+  display: block;
+  margin-top: 8px;
+}
+
+/*"cloudfunctionTemplateRoot": "cloudfunctionTemplate/"*/

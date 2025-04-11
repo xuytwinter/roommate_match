@@ -1,0 +1,26 @@
+/* pages/chat/chat.wxss */
+.chat-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.message {
+  margin: 5px 0;
+  padding: 10px;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  width: 25%;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+<!--pages/login/login.wxml-->
+
+
+<view class="container">
+  <!-- 页面背景 -->
+
+  <view class="header">
+    <image class="logo" src="/sjdtu.png" mode="aspectFill" />
+    
+  </view>
+  <text class="title">欢迎来到舍友匹配</text>
+
+
+  <!-- 登录按钮 -->
+
+  <button class="login-button" open-type="getUserInfo" bind:getuserinfo="buttonHandler">
+    登录并获取头像与昵称
+  </button>
+
+  <!-- 提示信息 -->
+  <view class="footer">
+    <text>登录后即可与其他用户匹配舍友</text>
+  </view>
+</view>
+
+
