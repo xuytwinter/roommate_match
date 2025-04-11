@@ -1,5 +1,3 @@
-# roommate_match
-
 # Uni-House：基于 Uniapp 的舍友匹配小程序
 
 ![Uni-House Banner](https://img.shields.io/badge/Platform-Uniapp-brightgreen)
