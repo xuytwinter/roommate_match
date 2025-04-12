@@ -1,11 +1,11 @@
-# Uni-House：基于 Uniapp 的舍友匹配小程序
+# Uni-House：一种基于微信 NLP API 的智能舍友匹配小程序系统 
 
 ![Uni-House Banner](https://img.shields.io/badge/Platform-Uniapp-brightgreen)
 ![Status](https://img.shields.io/badge/Project-Completed-blue)
 
 ## 📌 项目简介
 
-**Uni-House** 是一款基于 Uniapp 框架开发的小程序，旨在帮助大学生通过填写问卷，智能匹配最合适的舍友。系统将用户的个性、作息、兴趣等信息录入后，通过匹配算法与推荐系统，实现高效、智能的舍友配对，并支持基本的沟通功能。
+**Uni-House** 是一种基于微信 NLP API 的智能舍友匹配小程序系统 ，旨在帮助大学生通过填写问卷，智能匹配最合适的舍友。系统将用户的个性、作息、兴趣等信息录入后，通过匹配算法与推荐系统，实现高效、智能的舍友配对，并支持基本的沟通功能。
 
 ## ✨ 项目功能
 
